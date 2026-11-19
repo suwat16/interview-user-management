@@ -2,6 +2,8 @@
 
 REST API สำหรับจัดการผู้ใช้ด้วย Go, Fiber และ MongoDB รองรับการสมัคร ล็อกอินด้วย JWT และการอ่าน แก้ไข และลบข้อมูลผู้ใช้
 
+[เอกสารออกแบบ Lottery Search System](docs/lottery-search-system.md)
+
 ## ตั้งค่าและรันบนเครื่อง
 
 ต้องใช้ Go 1.26 ขึ้นไป, Docker พร้อม Compose, OpenSSL และ cURL ให้รันคำสั่งจาก root ของ repo
