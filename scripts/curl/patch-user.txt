@@ -1,0 +1,4 @@
+curl --request PATCH 'http://127.0.0.1:8080/users/REPLACE_USER_ID' \
+  --header 'Authorization: Bearer REPLACE_ACCESS_TOKEN' \
+  --header 'Content-Type: application/json' \
+  --data '{"name":"Manual Test Updated"}'

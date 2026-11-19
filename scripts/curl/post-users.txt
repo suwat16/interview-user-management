@@ -1,0 +1,3 @@
+curl --request POST 'http://127.0.0.1:8080/users' \
+  --header 'Content-Type: application/json' \
+  --data '{"name":"Manual Test","email":"manual-test@example.com","password":"ManualTest123!"}'
